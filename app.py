@@ -10,65 +10,65 @@ KNOWLEDGE_BASE = {
         "responses": {
             "calculate_tax": """Great question! Let me break down income tax calculation for you step by step.
 
-Alright, let’s decode this monster called **income tax**.  
-It’s basically the government’s cut from your earnings — a slice of every salary, rent, or profit you make.  
-Think of it like a subscription fee for living in civilization — you pay, they (hopefully) build roads and fix potholes.
+**Understanding the Process:**
 
-**Step 1: Know What Counts as Income**  
-Add up everything you earn in a year:  
-- Salary (including bonuses, allowances)  
-- Rental income from property  
-- Business or freelance income  
-- Capital gains (like profits from selling shares or property)  
-- Interest from savings, FDs, etc.  
+Income tax isn't as scary as it sounds. Think of it like a recipe - you need the right ingredients (your income sources) and follow the steps to get to the final amount.
 
-That total is your **Gross Income**.
+**Step 1: Calculate Your Gross Total Income**
+Add up ALL your income from:
+- Salary (including bonuses, allowances)
+- House property (rental income)
+- Business or profession
+- Capital gains (from selling property, stocks, etc.)
+- Other sources (interest from savings, FDs, etc.)
 
-**Step 2: Use Deductions to Pay Less**  
-This is where you fight back. Under the **Old Regime**, you can reduce taxable income with:  
-- ₹50,000 standard deduction (salary folks)  
-- Section **80C** – up to ₹1.5L (investments like PPF, ELSS, LIC)  
-- Section **80D** – health insurance premiums (₹25k–₹1L)  
-- Section **80CCD(1B)** – ₹50k for NPS  
-- Home loan interest – up to ₹2L  
+**Step 2: Claim Your Deductions**
+This is where you can reduce your taxable income! Subtract:
+- Standard deduction: ₹50,000 (for salaried individuals)
+- Section 80C: Up to ₹1.5 lakh (PPF, ELSS, life insurance, etc.)
+- Section 80D: Up to ₹25,000-₹100,000 (health insurance)
+- Section 80CCD(1B): Additional ₹50,000 (NPS)
+- Home loan interest: Up to ₹2 lakh
 
-Fewer deductions under the **New Regime**, but simpler math.
+**Note:** These deductions are only available in the **Old Tax Regime**!
 
-**Step 3: Pick Your Regime**
+**Step 3: Choose Your Tax Regime**
 
-🔹 **New Regime (FY 2024–25)**  
-- ₹0–3L → **No tax**  
-- ₹3–7L → **5%**  
-- ₹7–10L → **10%**  
-- ₹10–12L → **15%**  
-- ₹12–15L → **20%**  
-- ₹15L+ → **30%**
+**🔹 New Tax Regime (FY 2024-25):**
+- Up to ₹3 lakh: **Nil** (completely tax-free!)
+- ₹3-7 lakh: **5%**
+- ₹7-10 lakh: **10%**
+- ₹10-12 lakh: **15%**
+- ₹12-15 lakh: **20%**
+- Above ₹15 lakh: **30%**
 
-🔹 **Old Regime**  
-- ₹0–2.5L → **No tax**  
-- ₹2.5–5L → **5%**  
-- ₹5–10L → **20%**  
-- ₹10L+ → **30%**
+No deductions allowed (simpler but might cost more if you invest a lot).
 
-**Step 4: Check for Rebate**  
-Under **Section 87A**, if your total income ≤ ₹7L (new) or ₹5L (old), your payable tax is **zero**. 🎉  
+**🔹 Old Tax Regime:**
+- Up to ₹2.5 lakh: **Nil**
+- ₹2.5-5 lakh: **5%**
+- ₹5-10 lakh: **20%**
+- Above ₹10 lakh: **30%**
 
-**Step 5: Add 4% Health & Education Cess**  
-Because the government never forgets the fine print.
+All deductions (80C, 80D, etc.) are allowed here.
 
-**💡 Quick Example:**  
-If you earn ₹10L/year —  
-- **New Regime:** ~₹52,000 tax (post-cess)  
-- **Old Regime:** ~₹85,800 (after ₹1.5L deduction under 80C)  
+**Step 4: Apply Tax Rebate**
+- Section 87A: If your total income is up to ₹7 lakh (new regime) or ₹5 lakh (old regime), you get a rebate making your tax **zero**!
 
-**Pro Tip:** Go **new regime** if you don’t invest much. Stick to **old** if you’re maxing out deductions.
+**Step 5: Add Health & Education Cess**
+Add 4% cess on your calculated tax amount.
 
----
+**Quick Example:**
+Annual salary: ₹10 lakh
+- New Regime: Nil on ₹3L + 5% on ₹4L + 10% on ₹3L = ₹50,000 + cess = ₹52,000
+- Old Regime: After ₹1.5L deductions (80C), taxable = ₹8.5L
+  Tax: Nil on ₹2.5L + 5% on ₹2.5L + 20% on ₹3.5L = ₹82,500 + cess = ₹85,800
 
-So yeah, taxation isn’t black magic — it’s just structured daylight robbery with rules and rebates. 😎  
-Want me to calculate your tax for a sample salary next?""",
+**Pro Tip:** Use the new regime if you don't have many deductions. Otherwise, stick with old!
 
-"filing_documents": """Ah, the document checklist - let me walk you through everything you'll need!
+Need help choosing between regimes? Just ask! 😊""",
+            
+            "filing_documents": """Ah, the document checklist - let me walk you through everything you'll need!
 
 **📋 Essential Documents for ITR Filing:**
 
@@ -781,43 +781,22 @@ Diversify across 4-6 funds maximum.""",
     "insurance": {
         "keywords": ["insurance", "policy", "premium", "claim", "term", "health", "life", "vehicle", "coverage", "renewal", "sum assured", "mediclaim", "cashless"],
         "responses": {
-            "types_of_insurance": """
+            "types_of_insurance": """**Types of Insurance:**
 
-Ah, insurance — the art of paying now to panic less later.  
-Think of it as a financial safety net that keeps life’s curveballs from hitting your wallet straight in the face.
+**Life Insurance:**
+- **Term:** Pure protection, high cover, low premium
+- **Endowment:** Savings + protection
+- **ULIP:** Market-linked returns
+- **Whole Life:** Coverage till 100 years
 
-Here’s the breakdown 👇  
+**Health Insurance:**
+- Individual/Family floater plans
+- Critical illness cover
+- Top-up/Super top-up plans
 
-**1. Life Insurance**  
-It’s about protecting your family if life pulls a plot twist.  
-- **Term Plan:** Pure protection, high cover, low premium. If you’re gone, your family gets the payout — no savings gimmicks.  
-- **Endowment Plan:** Mix of protection + savings. You get some money back if you survive the term.  
-- **ULIP:** Market-linked plan — part insurance, part investment. Risky but can grow faster.  
-- **Whole Life:** Coverage that lasts till 99 or 100. Basically, lifetime membership in the insurance club.  
-
-**2. Health Insurance**  
-Covers hospital bills so your bank account doesn’t get admitted too.  
-- **Individual / Family Floater:** One plan covers you or your entire family.  
-- **Critical Illness Cover:** Big payouts for major diseases like cancer or heart attack.  
-- **Top-up / Super Top-up:** Kicks in after your base insurance limit is used up — like insurance for your insurance.  
-
-**3. Vehicle Insurance**  
-Because Indian roads don’t come with guarantees.  
-- **Third-Party:** Legally mandatory; covers damage *you* cause to others.  
-- **Comprehensive:** Covers both third-party and your own vehicle’s damage. Smart move if you like your car scratch-free.
-
----
-
-💡 **Quick Tip:**  
-- Get **term insurance** for life cover — cheap, solid protection.  
-- Always keep **health insurance**, even if your company gives one.  
-- Go **comprehensive** for vehicles; third-party alone is a false sense of security.  
-
----
-
-So yeah, insurance isn’t a scam — it’s just adulting with extra paperwork.  
-Want me to help you pick which type fits you best?
-""",
+**Vehicle Insurance:**
+- Third-party (mandatory)
+- Comprehensive (own damage + third-party)""",
             
             "get_quote": """**Get Insurance Quote:**
 
@@ -921,55 +900,17 @@ Want me to help you pick which type fits you best?
     "government_schemes": {
         "keywords": ["scheme", "government", "pmay", "pm kisan", "atal pension", "subsidy", "welfare", "yojana", "pension", "ayushman", "mudra", "jan dhan", "eligibility"],
         "responses": {
-            "popular_schemes": """
+            "popular_schemes": """**Popular Government Schemes:**
 
-Ah, the government — sometimes generous, sometimes confusing, always paperwork-heavy.  
-But hey, some of these schemes actually *do* help if you know what they’re for. Let’s decode the big ones 👇  
-
-**🏠 PMAY (Pradhan Mantri Awas Yojana)**  
-Dreaming of a home? This one gives you an **interest subsidy on home loans**.  
-Lower EMI, same house, fewer tears.  
-
-**🌾 PM-KISAN**  
-For farmers — **₹6,000/year**, paid in **3 installments** directly into their bank accounts.  
-No hidden fees, no “aapka form reject hua hai” drama (hopefully).  
-
-**👴 Atal Pension Yojana (APY)**  
-A pension plan for the unorganized sector — pay a bit monthly now, get **₹1,000–₹5,000/month** after 60.  
-Basically a retirement plan that actually remembers you exist.  
-
-**🏥 Ayushman Bharat**  
-The health cover flex — **up to ₹5 lakh per family per year** for medical treatment in empanelled hospitals.  
-If you’ve ever seen a hospital bill, you know this one’s gold.  
-
-**💼 MUDRA Loan**  
-For small business hustlers — get **loans up to ₹10 lakh** to start or expand your business.  
-No collateral, just confidence (and paperwork).  
-
-**🏦 Jan Dhan Yojana**  
-Zero-balance bank accounts for everyone.  
-Perfect if you want financial inclusion *and* a debit card without needing a minimum balance.  
-
-**👧 Sukanya Samriddhi Yojana**  
-For the girl child — offers **high interest** savings and tax benefits under 80C.  
-Basically a financial head-start for daughters.  
-
-**🔥 PM Ujjwala Yojana**  
-Provides **free LPG connections** to women from BPL households.  
-Because everyone deserves chai without the smoke.  
-
-**🌾 PM Fasal Bima Yojana**  
-Crop insurance that protects farmers from weather tantrums, pests, or other losses.  
-It’s basically “monsoon insurance.”  
-
----
-
-💡 **Quick Take:**  
-These schemes are like hidden cheat codes in the Indian financial system — if you qualify, use them.  
-They’re funded by your taxes anyway, might as well get something back. 😎  
-
-Want me to tell you which of these you might actually be eligible for?
-""",
+**PMAY (Housing):** Interest subsidy on home loans
+**PM-KISAN:** ₹6,000/year to farmers (3 installments)
+**Atal Pension Yojana:** Guaranteed pension ₹1,000-5,000/month
+**Ayushman Bharat:** Health cover up to ₹5 lakh
+**MUDRA Loan:** Business loans up to ₹10 lakh
+**Jan Dhan Yojana:** Zero-balance bank accounts
+**Sukanya Samriddhi:** Savings for girl child
+**PM Ujjwala:** Free LPG connections
+**PM Fasal Bima:** Crop insurance""",
             
             "pmay_details": """**PMAY (Pradhan Mantri Awas Yojana):**
 
@@ -1326,7 +1267,7 @@ if prompt := st.chat_input("Ask me about taxes, mutual funds, insurance, or gove
     with st.chat_message("assistant"):
         with st.spinner("Let me think about that... 🤔"):
             import time
-            time.sleep(1)  # Short pause for natural feel
+            time.sleep(0.8)  # Short pause for natural feel
             response = get_response(prompt)
             st.markdown(response)
     
@@ -1338,6 +1279,6 @@ st.divider()
 st.markdown("""
 <div style='text-align: center; color: #666; font-size: 0.9rem;'>
     <p>⚠️ <b>Disclaimer:</b> This chatbot provides general information only. Please consult a qualified financial advisor or tax professional for personalized advice.</p>
-    <p>Made with ❤️ for the financially confused | Not financial advice</p>
+    <p>Made with ❤️ for the financially confused | Not financial advice, just financial vibes</p>
 </div>
 """, unsafe_allow_html=True)
