@@ -10,65 +10,65 @@ KNOWLEDGE_BASE = {
         "responses": {
             "calculate_tax": """Great question! Let me break down income tax calculation for you step by step.
 
-**Understanding the Process:**
+Alright, let's decode this monster called **income tax**.  
+It's basically the government's cut from your earnings — a slice of every salary, rent, or profit you make.  
+Think of it like a subscription fee for living in civilization — you pay, they (hopefully) build roads and fix potholes.
 
-Income tax isn't as scary as it sounds. Think of it like a recipe - you need the right ingredients (your income sources) and follow the steps to get to the final amount.
+**Step 1: Know What Counts as Income**  
+Add up everything you earn in a year:  
+- Salary (including bonuses, allowances)  
+- Rental income from property  
+- Business or freelance income  
+- Capital gains (like profits from selling shares or property)  
+- Interest from savings, FDs, etc.  
 
-**Step 1: Calculate Your Gross Total Income**
-Add up ALL your income from:
-- Salary (including bonuses, allowances)
-- House property (rental income)
-- Business or profession
-- Capital gains (from selling property, stocks, etc.)
-- Other sources (interest from savings, FDs, etc.)
+That total is your **Gross Income**.
 
-**Step 2: Claim Your Deductions**
-This is where you can reduce your taxable income! Subtract:
-- Standard deduction: ₹50,000 (for salaried individuals)
-- Section 80C: Up to ₹1.5 lakh (PPF, ELSS, life insurance, etc.)
-- Section 80D: Up to ₹25,000-₹100,000 (health insurance)
-- Section 80CCD(1B): Additional ₹50,000 (NPS)
-- Home loan interest: Up to ₹2 lakh
+**Step 2: Use Deductions to Pay Less**  
+This is where you fight back. Under the **Old Regime**, you can reduce taxable income with:  
+- ₹50,000 standard deduction (salary folks)  
+- Section **80C** – up to ₹1.5L (investments like PPF, ELSS, LIC)  
+- Section **80D** – health insurance premiums (₹25k–₹1L)  
+- Section **80CCD(1B)** – ₹50k for NPS  
+- Home loan interest – up to ₹2L  
 
-**Note:** These deductions are only available in the **Old Tax Regime**!
+Fewer deductions under the **New Regime**, but simpler math.
 
-**Step 3: Choose Your Tax Regime**
+**Step 3: Pick Your Regime**
 
-**🔹 New Tax Regime (FY 2024-25):**
-- Up to ₹3 lakh: **Nil** (completely tax-free!)
-- ₹3-7 lakh: **5%**
-- ₹7-10 lakh: **10%**
-- ₹10-12 lakh: **15%**
-- ₹12-15 lakh: **20%**
-- Above ₹15 lakh: **30%**
+📊 **New Regime (FY 2024–25)**  
+- ₹0–3L → **No tax**  
+- ₹3–7L → **5%**  
+- ₹7–10L → **10%**  
+- ₹10–12L → **15%**  
+- ₹12–15L → **20%**  
+- ₹15L+ → **30%**
 
-No deductions allowed (simpler but might cost more if you invest a lot).
+📊 **Old Regime**  
+- ₹0–2.5L → **No tax**  
+- ₹2.5–5L → **5%**  
+- ₹5–10L → **20%**  
+- ₹10L+ → **30%**
 
-**🔹 Old Tax Regime:**
-- Up to ₹2.5 lakh: **Nil**
-- ₹2.5-5 lakh: **5%**
-- ₹5-10 lakh: **20%**
-- Above ₹10 lakh: **30%**
+**Step 4: Check for Rebate**  
+Under **Section 87A**, if your total income ≤ ₹7L (new) or ₹5L (old), your payable tax is **zero**. 🎉  
 
-All deductions (80C, 80D, etc.) are allowed here.
+**Step 5: Add 4% Health & Education Cess**  
+Because the government never forgets the fine print.
 
-**Step 4: Apply Tax Rebate**
-- Section 87A: If your total income is up to ₹7 lakh (new regime) or ₹5 lakh (old regime), you get a rebate making your tax **zero**!
+**💡 Quick Example:**  
+If you earn ₹10L/year –  
+- **New Regime:** ~₹52,000 tax (post-cess)  
+- **Old Regime:** ~₹85,800 (after ₹1.5L deduction under 80C)  
 
-**Step 5: Add Health & Education Cess**
-Add 4% cess on your calculated tax amount.
+**Pro Tip:** Go **new regime** if you don't invest much. Stick to **old** if you're maxing out deductions.
 
-**Quick Example:**
-Annual salary: ₹10 lakh
-- New Regime: Nil on ₹3L + 5% on ₹4L + 10% on ₹3L = ₹50,000 + cess = ₹52,000
-- Old Regime: After ₹1.5L deductions (80C), taxable = ₹8.5L
-  Tax: Nil on ₹2.5L + 5% on ₹2.5L + 20% on ₹3.5L = ₹82,500 + cess = ₹85,800
+---
 
-**Pro Tip:** Use the new regime if you don't have many deductions. Otherwise, stick with old!
+So yeah, taxation isn't black magic — it's just structured daylight robbery with rules and rebates. 😎  
+""",
 
-Need help choosing between regimes? Just ask! 😊""",
-            
-            "filing_documents": """Ah, the document checklist - let me walk you through everything you'll need!
+"filing_documents": """Ah, the document checklist - let me walk you through everything you'll need!
 
 **📋 Essential Documents for ITR Filing:**
 
@@ -123,7 +123,7 @@ These help you save tax in the old regime:
 - **Previous year's ITR** - For reference
 - **Property documents** - If you own rental property
 
-**🔍 Pro Tips:**
+**🎯 Pro Tips:**
 
 1. **Download Form 26AS first** - It shows all your reported income. Your ITR must match this!
 
@@ -134,13 +134,13 @@ These help you save tax in the old regime:
 4. **TDS mismatch?** Contact your employer/deductor immediately. They need to file a correction statement.
 
 **Quick Check Before Filing:**
-✅ Form 16 received?
-✅ Form 26AS matches your income?
-✅ All investment proofs ready?
-✅ Bank account linked to PAN?
-✅ Aadhaar linked to PAN?
+✓ Form 16 received?
+✓ Form 26AS matches your income?
+✓ All investment proofs ready?
+✓ Bank account linked to PAN?
+✓ Aadhaar linked to PAN?
 
-Got all these? You're ready to file! Need help with the actual filing process? Just ask! 🚀""",
+Got all these? You're ready to file! 🚀""",
             
             "filing_deadline": """Tax filing deadlines:
 - **Individuals (non-audit):** July 31st
@@ -156,7 +156,7 @@ Missing deadline? File belated return with ₹5,000 penalty (₹1,000 if income 
 
 It's a provision that lets you reduce your taxable income by up to **₹1.5 lakh per year** by investing in specified instruments. Think of it as the government saying, "Save money, pay less tax!"
 
-**⚠️ Important Note:** These deductions are **only available in the Old Tax Regime**. If you've opted for the New Tax Regime, you can't claim these.
+**⚡ Important Note:** These deductions are **only available in the Old Tax Regime**. If you've opted for the New Tax Regime, you can't claim these.
 
 **Where Can You Invest for 80C Benefits?**
 
@@ -216,11 +216,11 @@ Let me break down your options:
 
 **Common Mistakes to Avoid:**
 
-❌ Investing just for tax saving without checking returns
-❌ Putting all money in December rush - spread throughout the year
-❌ Not considering lock-in periods
-❌ Forgetting that LIC premiums >10% of sum assured don't qualify
-❌ Claiming for development fees or transport fees (not eligible!)
+✗ Investing just for tax saving without checking returns
+✗ Putting all money in December rush - spread throughout the year
+✗ Not considering lock-in periods
+✗ Forgetting that LIC premiums >10% of sum assured don't qualify
+✗ Claiming for development fees or transport fees (not eligible!)
 
 **Quick Example:**
 
@@ -231,8 +231,7 @@ New taxable income: ₹8.5 lakh
 **Tax saved:** ₹30,000 (at 20% slab) + ₹1,200 cess = **₹31,200!**
 
 That's a solid return just on tax savings, plus whatever your investments earn! 🎯
-
-Want recommendations on which 80C instruments suit you best? Just ask! 😊""",
+""",
             
             "old_vs_new": """This is THE million-dollar question (or should I say, tax-saving question)! Let me help you figure this out.
 
@@ -271,7 +270,7 @@ The traditional system - higher tax rates but TONS of deductions to reduce your 
 
 **Who Should Choose NEW Regime?**
 
-✅ **You, if:**
+✓ **You, if:**
 1. Your income is ₹7-10 lakh with **no investments**
 2. You live in a rented place (no HRA claim anyway)
 3. You don't have home loan
@@ -285,7 +284,7 @@ The traditional system - higher tax rates but TONS of deductions to reduce your 
 
 **Who Should Choose OLD Regime?**
 
-✅ **You, if:**
+✓ **You, if:**
 1. You have **home loan** (interest component)
 2. You get **HRA** and live in rented house
 3. You invest ₹1.5L+ annually (80C + 80D + NPS)
@@ -339,14 +338,7 @@ Taxable income becomes: ₹7.75L
 
 **Senior executive (₹20L+, active investor):**
 → **Old Regime** (higher deductions offset higher rates)
-
-**Still confused?** Share your:
-- Annual income
-- Investments/deductions
-- HRA/rent situation
-- Home loan status
-
-I'll tell you which regime saves you more! 🎯""",
+""",
             
             "gst_filing": """GST Return Filing:
 - **GSTR-1:** Monthly/Quarterly sales return
@@ -417,7 +409,7 @@ Let's say your salary is ₹50,000/month.
 **Form 16A:** TDS certificate for non-salary income
 - From bank (interest), tenant (rent), client (professional fees)
 
-**🔍 How to Check Your TDS Credits:**
+**🎯 How to Check Your TDS Credits:**
 
 1. Visit: incometax.gov.in
 2. Login with PAN
@@ -479,8 +471,7 @@ No! TDS is just advance payment. Final tax calculated when you file ITR. You mig
 - Always check Form 26AS
 - Claim refund if excess TDS
 - Pay balance if TDS insufficient
-
-Need help with TDS on specific income type? Just ask! 😊""",
+""",
             
             "refund_status": """Check refund status:
 1. Visit incometax.gov.in
@@ -630,20 +621,20 @@ Most funds let you withdraw money anytime (except ELSS - 3 year lock-in).
 
 **Common Myths Busted:**
 
-❌ **"Mutual funds guarantee returns"**
-✅ No guarantees! Returns depend on market performance.
+✗ **"Mutual funds guarantee returns"**
+✓ No guarantees! Returns depend on market performance.
 
-❌ **"Only for rich people"**
-✅ Start with just ₹500/month via SIP!
+✗ **"Only for rich people"**
+✓ Start with just ₹500/month via SIP!
 
-❌ **"Too risky, might lose all money"**
-✅ Diversification reduces risk. Long-term investing has historically given positive returns.
+✗ **"Too risky, might lose all money"**
+✓ Diversification reduces risk. Long-term investing has historically given positive returns.
 
-❌ **"I need Demat account"**
-✅ Not needed! Direct investment with AMC or through platforms.
+✗ **"I need Demat account"**
+✓ Not needed! Direct investment with AMC or through platforms.
 
-❌ **"Can't withdraw when I need"**
-✅ Most funds allow redemption in 3-7 days (except ELSS).
+✗ **"Can't withdraw when I need"**
+✓ Most funds allow redemption in 3-7 days (except ELSS).
 
 **Fees You Should Know:**
 
@@ -687,9 +678,7 @@ Think of mutual funds as:
 - Working 24/7 to grow your money
 - While you focus on your career/life
 
-Perfect for beginners and experts alike!
-
-Want to know which type of mutual fund suits you? Ask away! 😊""",
+Perfect for beginners and experts alike!😊""",
             
             "types_of_mf": """**Types of Mutual Funds:**
 
@@ -781,22 +770,42 @@ Diversify across 4-6 funds maximum.""",
     "insurance": {
         "keywords": ["insurance", "policy", "premium", "claim", "term", "health", "life", "vehicle", "coverage", "renewal", "sum assured", "mediclaim", "cashless"],
         "responses": {
-            "types_of_insurance": """**Types of Insurance:**
+            "types_of_insurance": """
 
-**Life Insurance:**
-- **Term:** Pure protection, high cover, low premium
-- **Endowment:** Savings + protection
-- **ULIP:** Market-linked returns
-- **Whole Life:** Coverage till 100 years
+Ah, insurance — the art of paying now to panic less later.  
+Think of it as a financial safety net that keeps life's curveballs from hitting your wallet straight in the face.
 
-**Health Insurance:**
-- Individual/Family floater plans
-- Critical illness cover
-- Top-up/Super top-up plans
+Here's the breakdown 📝  
 
-**Vehicle Insurance:**
-- Third-party (mandatory)
-- Comprehensive (own damage + third-party)""",
+**1. Life Insurance**  
+It's about protecting your family if life pulls a plot twist.  
+- **Term Plan:** Pure protection, high cover, low premium. If you're gone, your family gets the payout — no savings gimmicks.  
+- **Endowment Plan:** Mix of protection + savings. You get some money back if you survive the term.  
+- **ULIP:** Market-linked plan — part insurance, part investment. Risky but can grow faster.  
+- **Whole Life:** Coverage that lasts till 99 or 100. Basically, lifetime membership in the insurance club.  
+
+**2. Health Insurance**  
+Covers hospital bills so your bank account doesn't get admitted too.  
+- **Individual / Family Floater:** One plan covers you or your entire family.  
+- **Critical Illness Cover:** Big payouts for major diseases like cancer or heart attack.  
+- **Top-up / Super Top-up:** Kicks in after your base insurance limit is used up — like insurance for your insurance.  
+
+**3. Vehicle Insurance**  
+Because Indian roads don't come with guarantees.  
+- **Third-Party:** Legally mandatory; covers damage *you* cause to others.  
+- **Comprehensive:** Covers both third-party and your own vehicle's damage. Smart move if you like your car scratch-free.
+
+---
+
+💡 **Quick Tip:**  
+- Get **term insurance** for life cover — cheap, solid protection.  
+- Always keep **health insurance**, even if your company gives one.  
+- Go **comprehensive** for vehicles; third-party alone is a false sense of security.  
+
+---
+
+So yeah, insurance isn't a scam — it's just adulting with extra paperwork.
+""",
             
             "get_quote": """**Get Insurance Quote:**
 
@@ -900,17 +909,53 @@ Diversify across 4-6 funds maximum.""",
     "government_schemes": {
         "keywords": ["scheme", "government", "pmay", "pm kisan", "atal pension", "subsidy", "welfare", "yojana", "pension", "ayushman", "mudra", "jan dhan", "eligibility"],
         "responses": {
-            "popular_schemes": """**Popular Government Schemes:**
+            "popular_schemes": """
 
-**PMAY (Housing):** Interest subsidy on home loans
-**PM-KISAN:** ₹6,000/year to farmers (3 installments)
-**Atal Pension Yojana:** Guaranteed pension ₹1,000-5,000/month
-**Ayushman Bharat:** Health cover up to ₹5 lakh
-**MUDRA Loan:** Business loans up to ₹10 lakh
-**Jan Dhan Yojana:** Zero-balance bank accounts
-**Sukanya Samriddhi:** Savings for girl child
-**PM Ujjwala:** Free LPG connections
-**PM Fasal Bima:** Crop insurance""",
+Ah, the government — sometimes generous, sometimes confusing, always paperwork-heavy.  
+But hey, some of these schemes actually *do* help if you know what they're for. Let's decode the big ones 📝  
+
+**🏠 PMAY (Pradhan Mantri Awas Yojana)**  
+Dreaming of a home? This one gives you an **interest subsidy on home loans**.  
+Lower EMI, same house, fewer tears.  
+
+**🌾 PM-KISAN**  
+For farmers — **₹6,000/year**, paid in **3 installments** directly into their bank accounts.  
+No hidden fees, no "aapka form reject hua hai" drama (hopefully).  
+
+**👴 Atal Pension Yojana (APY)**  
+A pension plan for the unorganized sector — pay a bit monthly now, get **₹1,000–₹5,000/month** after 60.  
+Basically a retirement plan that actually remembers you exist.  
+
+**🏥 Ayushman Bharat**  
+The health cover flex — **up to ₹5 lakh per family per year** for medical treatment in empanelled hospitals.  
+If you've ever seen a hospital bill, you know this one's gold.  
+
+**💼 MUDRA Loan**  
+For small business hustlers — get **loans up to ₹10 lakh** to start or expand your business.  
+No collateral, just confidence (and paperwork).  
+
+**🏦 Jan Dhan Yojana**  
+Zero-balance bank accounts for everyone.  
+Perfect if you want financial inclusion *and* a debit card without needing a minimum balance.  
+
+**👧 Sukanya Samriddhi Yojana**  
+For the girl child — offers **high interest** savings and tax benefits under 80C.  
+Basically a financial head-start for daughters.  
+
+**🔥 PM Ujjwala Yojana**  
+Provides **free LPG connections** to women from BPL households.  
+Because everyone deserves chai without the smoke.  
+
+**🌾 PM Fasal Bima Yojana**  
+Crop insurance that protects farmers from weather tantrums, pests, or other losses.  
+It's basically "monsoon insurance."  
+
+---
+
+💡 **Quick Take:**  
+These schemes are like hidden cheat codes in the Indian financial system — if you qualify, use them.  
+They're funded by your taxes anyway, might as well get something back. 😎  
+""",
             
             "pmay_details": """**PMAY (Pradhan Mantri Awas Yojana):**
 
@@ -1173,10 +1218,9 @@ st.markdown("""
         margin: 0.5rem 0;
     }
     .stButton>button {
-        width: 100%;
-        background-color: #1f77b4;
+        background-color: #D14E00;
         color: white;
-        border-radius: 5px;
+        border-radius: 100px;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -1187,52 +1231,27 @@ st.markdown('<div class="tagline">Your go-to bot for decoding taxes, mutual fund
 
 # Sidebar
 with st.sidebar:
-    st.header("📚 Quick Topics")
-    
-    if st.button("🏦 Taxation"):
-        st.session_state.messages.append({"role": "user", "content": "Tell me about taxation"})
-        response = get_response("Tell me about taxation")
-        st.session_state.messages.append({"role": "assistant", "content": response})
-        st.session_state.chat_started = True
-        st.rerun()
-    
-    if st.button("💰 Mutual Funds"):
-        st.session_state.messages.append({"role": "user", "content": "What are mutual funds?"})
-        response = get_response("What are mutual funds?")
-        st.session_state.messages.append({"role": "assistant", "content": response})
-        st.session_state.chat_started = True
-        st.rerun()
-    
-    if st.button("🛡️ Insurance"):
-        st.session_state.messages.append({"role": "user", "content": "Tell me about insurance"})
-        response = get_response("Tell me about insurance")
-        st.session_state.messages.append({"role": "assistant", "content": response})
-        st.session_state.chat_started = True
-        st.rerun()
-    
-    if st.button("🏛️ Government Schemes"):
-        st.session_state.messages.append({"role": "user", "content": "What government schemes are available?"})
-        response = get_response("What government schemes are available?")
-        st.session_state.messages.append({"role": "assistant", "content": response})
-        st.session_state.chat_started = True
-        st.rerun()
-    
-    st.divider()
-    
-    if st.button("🗑️ Clear Chat"):
-        st.session_state.messages = []
-        st.session_state.chat_started = False
-        st.rerun()
-    
-    st.divider()
-    st.markdown("### 💡 Example Questions")
+    st.header("💡 Try asking:")
     st.markdown("""
     - How do I file ITR?
     - What is Section 80C?
-    - How to start a SIP?
-    - Types of insurance
+    - How to check refund status?
+    - What is NAV?
+    - Types of mutual funds
+    - Risks of mutual funds
+    - How to file an insurance claim?
+    - What are the types of coverages in insurance?
+    - Get insurance quote
     - PM-KISAN eligibility
+    - Details of PMAY scheme
+    - Atal Pension Yojana benefits
     """)
+
+    st.divider()
+    if st.button("Clear Chat"):
+        st.session_state.messages = []
+        st.session_state.chat_started = False
+        st.rerun()
 
 # Welcome message
 if not st.session_state.chat_started and len(st.session_state.messages) == 0:
@@ -1245,7 +1264,7 @@ Ask me anything — let's untangle your money mess, one broke insight at a time.
 - 💰 Mutual Fund investments
 - 🛡️ Insurance policies & claims
 - 🏛️ Government schemes & subsidies"""
-    
+
     st.session_state.messages.append({"role": "assistant", "content": welcome_msg})
     st.session_state.chat_started = True
 
@@ -1264,12 +1283,10 @@ if prompt := st.chat_input("Ask me about taxes, mutual funds, insurance, or gove
     with st.chat_message("user"):
         st.markdown(prompt)
     
+    response = get_response(prompt)
+    
     with st.chat_message("assistant"):
-        with st.spinner("Let me think about that... 🤔"):
-            import time
-            time.sleep(0.8)  # Short pause for natural feel
-            response = get_response(prompt)
-            st.markdown(response)
+        st.markdown(response)
     
     st.session_state.messages.append({"role": "assistant", "content": response})
     st.rerun()
@@ -1279,6 +1296,39 @@ st.divider()
 st.markdown("""
 <div style='text-align: center; color: #666; font-size: 0.9rem;'>
     <p>⚠️ <b>Disclaimer:</b> This chatbot provides general information only. Please consult a qualified financial advisor or tax professional for personalized advice.</p>
-    <p>Made with ❤️ for the financially confused | Not financial advice, just financial vibes</p>
+    <p>Made with ❤️ for the financially confused | Not financial advice</p>
 </div>
 """, unsafe_allow_html=True)
+
+col1, col2, col3, col4 = st.columns(4, gap="small")
+with col1:
+    if st.button("🏦 Taxation"):
+        st.session_state.messages.append({"role": "user", "content": "Tell me about taxation"})
+        response = get_response("Tell me about taxation")
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.chat_started = True
+        st.rerun()
+    
+with col2:
+    if st.button("💰 Mutual Funds"):
+        st.session_state.messages.append({"role": "user", "content": "What are mutual funds?"})
+        response = get_response("What are mutual funds?")
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.chat_started = True
+        st.rerun()
+    
+with col3:
+    if st.button("🛡️ Insurance"):
+        st.session_state.messages.append({"role": "user", "content": "Tell me about insurance"})
+        response = get_response("Tell me about insurance")
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.chat_started = True
+        st.rerun()
+    
+with col4:
+    if st.button("🏛️ Government Schemes"):
+        st.session_state.messages.append({"role": "user", "content": "What government schemes are available?"})
+        response = get_response("What government schemes are available?")
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.chat_started = True
+        st.rerun()
