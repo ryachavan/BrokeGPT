@@ -1,7 +1,4 @@
 import streamlit as st
-import re
-from datetime import datetime
-import json
 
 # Knowledge Base
 KNOWLEDGE_BASE = {
@@ -1331,4 +1328,5 @@ with col4:
         response = get_response("What government schemes are available?")
         st.session_state.messages.append({"role": "assistant", "content": response})
         st.session_state.chat_started = True
+
         st.rerun()
