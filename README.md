@@ -1,117 +1,131 @@
-README.md
-# 💸 BrokeGPT – Application of Design Thinking Principles to Finance
+# 💰 **BrokeGPT: Application of Design Thinking Principles to Finance**
 
-BrokeGPT is an interactive **personal finance simulation chatbot** built using **Python and Streamlit**, designed to demonstrate how **Design Thinking principles** can be applied in the financial domain. The project walks through the stages of **Empathize, Define, Ideate, Prototype, and Test**, ultimately resulting in an AI-powered assistant that helps users manage and understand budgeting and spending habits.
-
----
-
-## 🎯 Objective
-
-This project showcases how human-centered problem-solving can be used to address financial stress through design thinking. The chatbot not only educates users about basic financial concepts but also guides them to make smarter money decisions interactively.
+**BrokeGPT** is a **Streamlit-based intelligent financial assistant** designed using **Design Thinking principles** to simplify complex finance concepts for users.  
+The project follows the five stages of design thinking — *Empathize, Define, Ideate, Prototype, and Test* — and delivers a working simulation that helps users explore **Taxation**, **Investments**, **Insurance**, and **Government Schemes** interactively.
 
 ---
 
-## 🧠 Design Thinking Framework
+## 🧠 **Overview**
 
-BrokeGPT is structured around the five stages of the Design Thinking process:
-
-1. **Empathize** – Understanding user challenges in managing personal finance.
-2. **Define** – Identifying key issues such as poor budgeting, lack of awareness, and emotional spending.
-3. **Ideate** – Brainstorming potential tech-driven solutions like financial chatbots.
-4. **Prototype** – Developing BrokeGPT using Python and Streamlit.
-5. **Test** – Allowing users to interact with BrokeGPT and refine it based on feedback.
+BrokeGPT serves as a **personal financial chatbot prototype** built in **Python** using **Streamlit** for its interface and deployment.  
+It integrates a structured knowledge base on essential financial topics and provides meaningful, conversational responses to user queries — promoting better financial awareness and decision-making.
 
 ---
 
-## 🧩 Features
+## 🚀 **Features**
 
-- Conversational chatbot powered by a structured **financial knowledge base**.
-- Simulates real-world financial decision-making scenarios.
-- Provides budgeting and expense tips tailored to user inputs.
-- Interactive **Streamlit UI** for an easy and engaging experience.
-- Modular and extendable codebase for future AI model integration.
+### 🧾 **1. Taxation Assistance**
+- Filing process explanation  
+- Required documents for ITR filing  
+- Tax filing deadlines  
+- Section 80C deductions overview  
+- Comparison between *Old vs. New* Tax Regimes  
+- GST return filing process  
+- TDS details and guidance  
+- Checking refund status  
+- Applying for PAN  
+
+### 💹 **2. Mutual Funds**
+- Types of mutual funds  
+- Starting a SIP (Systematic Investment Plan)  
+- Understanding Net Asset Value (NAV)  
+- Tax implications on mutual funds  
+- Redemption process  
+- Choosing the right fund  
+- Risk assessment in mutual funds  
+
+### 🛡️ **3. Insurance**
+- Get insurance quotes  
+- Claim filing and claim status tracking  
+- Renewal process  
+- Coverage details overview  
+- Policy exclusions  
+
+### 🏛️ **4. Government Schemes**
+- Information on individual government schemes  
+- Eligibility and benefits details  
+- Required documents for application  
 
 ---
 
-## 🛠️ Tech Stack
+## 🧩 **Design Thinking Approach**
 
-- **Language:** Python  
-- **Framework:** Streamlit  
-- **Libraries:**  
-  - `streamlit` for UI  
-  - `pandas` for data handling  
-  - `json` for knowledge base management  
-  - `random` and `time` for interactive response simulation  
+The development followed the **Design Thinking methodology**, focusing on human-centered problem-solving:
+
+| Stage | Description |
+|-------|--------------|
+| **Empathize** | Understanding financial challenges faced by users |
+| **Define** | Identifying pain points in financial literacy and accessibility |
+| **Ideate** | Brainstorming ways to make finance learning simple and interactive |
+| **Prototype** | Developing BrokeGPT as a guided, informative chatbot interface |
+| **Test** | Gathering user feedback and refining responses for clarity and usability |
 
 ---
 
-## 📂 Project Structure
+## 🛠️ **Technology Stack**
+
+| Component | Description |
+|------------|-------------|
+| **Language** | Python |
+| **Framework** | Streamlit |
+| **Library Used** | **Streamlit** — used for building and deploying the interactive web interface. Handles layout, user inputs (text boxes, buttons), and real-time updates. Enables easy hosting and sharing via Streamlit Cloud. |
+
+---
+
+## 📂 **Project Structure**
 
 
 
-BrokeGPT-main/
+BrokeGPT/
 │
-├── app.py # Main Streamlit app
-├── knowledge_base.py # Contains knowledge base (lines 7–1064)
-├── requirements.txt # Required dependencies
-├── assets/ # Optional images or design files
+├── knowledge_base.py # Contains financial domain knowledge (Tax, MF, Insurance, Schemes)
+├── brokegpt_app.py # Streamlit app with main chatbot interface
+├── requirements.txt # Dependencies
 └── README.md # Project documentation
 
 
 ---
 
-## ⚙️ Installation & Setup
+## ▶️ **How to Run the App Locally**
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/BrokeGPT.git
-   cd BrokeGPT
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/BrokeGPT.git
 
+# Navigate to the project folder
+cd BrokeGPT
 
-Install dependencies
-
+# Install dependencies
 pip install -r requirements.txt
 
-
-Run the application
-
-streamlit run app.py
+# Run the Streamlit app
+streamlit run brokegpt_app.py
 
 
-Open the local server link shown in your terminal (usually http://localhost:8501) and start chatting with BrokeGPT!
+Then open your browser and go to:
+👉 http://localhost:8501
 
-🧭 How It Works
+✨ Key Strengths
 
-The knowledge base (lines 7–1064) forms the chatbot’s intelligence layer, containing curated finance-related insights and responses.
+✅ Clean, minimal interface built with Streamlit
+✅ Comprehensive financial knowledge base
+✅ Simplifies jargon-heavy financial topics into conversational responses
+✅ Applies design thinking principles effectively for real-world learning
 
-The Streamlit interface captures user input and generates context-based answers.
+🧭 Future Enhancements
 
-The system applies design thinking principles to simulate problem-solving for common financial challenges.
+🤖 Integration of NLP models for natural language conversation
 
-🌍 Future Scope
+💡 Personalized financial advice and simulation modules
 
-Integrate with real-time financial APIs.
+🏦 Expanded coverage for banking and credit card management
 
-Add machine learning for personalized financial advice.
+📊 Interactive dashboards for tax and investment tracking
 
-Enhance visualization using charts and progress trackers.
+👩‍💻 Contributors
 
-Deploy using Streamlit Cloud or other hosting platforms.
+Developed by Aarna and Team
+Project: Application of Design Thinking Principles to Finance
+Deployed live at: 🌐 BrokeGPT Streamlit App
 
-👩‍💻 Team & Acknowledgment
-
-Developed by Aarna and team as part of the Design Thinking Project, demonstrating the intersection of creativity, empathy, and financial literacy through technology.
-
-📜 License
-
-This project is open-source under the MIT License
-.
-
-🌐 Live Demo
-
-Access the deployed app here: https://brokegpt.streamlit.app/
-
-
----
-
-Would you like me to include a short **“Demo usage example”** (like a sample conversation or screenshot section) to 
+⭐ If you like this project, don’t forget to give it a star on GitHub!
