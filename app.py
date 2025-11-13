@@ -1237,7 +1237,7 @@ with st.sidebar:
     - Types of mutual funds
     - Risks of mutual funds
     - How to file an insurance claim?
-    - What are the types of coverages in insurance?
+    - Insurance coverages
     - Get insurance quote
     - PM-KISAN eligibility
     - Details of PMAY scheme
@@ -1330,3 +1330,4 @@ with col4:
         st.session_state.chat_started = True
 
         st.rerun()
+
